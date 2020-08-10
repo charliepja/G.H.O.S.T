@@ -9,7 +9,7 @@ const octokit = new Octokit({
 
 const client = new Discord.Client({ fetchAllMembers: true });
 
-const prefix = '!';
+const prefix = 'x?';
 
 client.commands = new Discord.Collection();
 
